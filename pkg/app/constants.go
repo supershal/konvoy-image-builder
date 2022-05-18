@@ -55,6 +55,8 @@ const (
 	AzureSubscriptionIDEnvVariable = "AZURE_SUBSCRIPTION_ID"
 	AzureTenantIDEnvVariable       = "AZURE_TENANT_ID"
 
+	GCPCredentialEnvVariable = "GOOGLE_APPLICATION_CREDENTIALS"
+
 	OutputDir = "./work"
 )
 
