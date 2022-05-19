@@ -8,6 +8,7 @@ const (
 
 	BuildTypeAmazon = "amazon"
 	BuildTypeAzure  = "azure"
+	BuildTypeGCP    = "gcp"
 
 	CommonConfigDefaultPath = "./images/common.yaml"
 	ContainerdVersionKey    = "containerd_version"
