@@ -6,7 +6,7 @@ import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.finishBuildTrigger
 import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.retryBuild
 import jetbrains.buildServer.configs.kotlin.v2019_2.triggers.vcs
 
-object BuildChainAMICentOS79 : BuildType({
+class BuildChainAMICentOS79 : BuildType({
     // templates(DockerWithAwsCreds)
     id("BuildChainAMICentOS79")
     name = "Build Chain - AMI CentOS 7"
