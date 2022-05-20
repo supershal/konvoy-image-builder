@@ -30,8 +30,4 @@ project {
 
     buildType(BuildChainAMICentOS79)
 
-     vcs {
-        root(DslContext.settingsRoot)
-    }
-
 }
