@@ -28,6 +28,6 @@ version = "2021.1"
 
 project {
 
-    buildType(BuildChainAMICentOS79)
+    buildType(_self.KIBProject)
 
 }
