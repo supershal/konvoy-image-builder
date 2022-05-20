@@ -28,26 +28,10 @@ version = "2021.1"
 
 project {
 
-    buildType(ClosedSource_KonvoyImageBuilder_DslKonvoyImageBuilder_Build)
-}
+    buildType(BuildChainAMICentOS79)
 
-object ClosedSource_KonvoyImageBuilder_DslKonvoyImageBuilder_Build : BuildType({
-    id("Build")
-    name = "Build"
-
-    vcs {
+     vcs {
         root(DslContext.settingsRoot)
     }
 
-    steps {
-        script {
-            name = "Test"
-            scriptContent = """echo "testing""""
-        }
-    }
-
-    triggers {
-        vcs {
-        }
-    }
-})
+}
